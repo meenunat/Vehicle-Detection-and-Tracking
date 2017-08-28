@@ -1,4 +1,4 @@
-# **Vehicle Detection Project**
+# Project 5:  **Vehicle Detection Project**
 
 The goals / steps of this project are the following:
 
@@ -74,3 +74,7 @@ One other limitation is that the algorithm identifies the vehicle on the other s
 Also, the size of the box keeps changing during the video process that needs to be improved.
 
 The algorithm is trained with images that restrict it to identify the vehicle only after the entire vehicle is in the frame which needs to be addressed.
+
+### References
+1. [Udacity Self-Driving Car Class Materials](https://classroom.udacity.com/nanodegrees/nd013/parts/fbf77062-5703-404e-b60c-95b78b2f3f9e)
+2. [Self-Driving Car Project Q&A](https://www.youtube.com/watch?v=P2zwrTM8ueA&feature=youtu.be&utm_medium=email&utm_campaign=2017-05-24_carnd_projectwalkthroughs&utm_source=blueshift&utm_content=2017-05-24_carnd_projectwalkthroughs&bsft_eid=809c46b1-7b0f-4960-9cc1-459c102110d5&bsft_clkid=d5c545c7-51a9-4ad1-b183-8df98e93bfce&bsft_uid=6462eace-49a4-468f-a7d8-d25690fd3bfa&bsft_mid=b9348cc6-ddd2-408e-9441-aa9a1302ad86)
