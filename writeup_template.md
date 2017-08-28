@@ -66,6 +66,10 @@ Here's a [link to my video result](./project_output.mp4)
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-Also, the algorithm was false identifying the trees unless defining the area of interest. One of the limitation is that the algorithm identifies the vehicle on the other side of the road due to wider range of area of interest. 
+The algorithm false identifies the trees unless the area of interest is defined. But the area of interest defined using test images may change for project_video.mp4.
 
-Also, the size of the box keeps changing during the video process that needs to be improved. The algorithm is trained with images that restrict it to identify the vehicle only after the entire vehicle is in the frame which needs to be addressed.
+One other limitation is that the algorithm identifies the vehicle on the other side of the road due to wider range of area of interest. 
+
+Also, the size of the box keeps changing during the video process that needs to be improved.
+
+The algorithm is trained with images that restrict it to identify the vehicle only after the entire vehicle is in the frame which needs to be addressed.
