@@ -19,7 +19,8 @@ I started by reading in all the `vehicle` and `non-vehicle` images into cars and
 
 ### 2. Explain how you settled on your final choice of HOG parameters.
 
-I tried various various color space in order (`'RGB', 'HSV', 'LUV', 'HLS', 'YUV', 'YCrCb'`) and HOG parameters of `orientations=9`, `pixels_per_cell=(8, 8)` and `cells_per_block=(2, 2)`. 
+I tried various various color space in order (`'RGB', 'HSV', 'LUV', 'HLS', 'YUV', 'YCrCb'`) and HOG parameters of `orientations=9`, `pixels_per_cell=(8, 8)` and `cells_per_block=(2, 2)`.
+ 
 #### HOG image for RGB Color Space 
 ![](./output_images/rgb_hog_image.png?raw=true "RGB")
 
@@ -49,7 +50,7 @@ The data was shuffled and split into validation, test data. The data was normali
 
 ### Sliding Window Search and Heat Map
 
-With the Test accuracy as 0.977, there is still false positives in the detection. Also there is some regions that overlaps with other windows.
+With the Test accuracy as 0.9875, there is still false positives in the detection. Also there is some regions that overlaps with other windows.
 
 This is addressed by defining an area of interest where the cars will be present and applying threshold to the heat map. 
 
