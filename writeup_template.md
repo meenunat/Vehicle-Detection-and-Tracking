@@ -1,4 +1,4 @@
-# Project 5:  **Vehicle Detection Project**
+# Project 5:  **Vehicle Detection And Tracking**
 
 The goals / steps of this project are the following:
 
