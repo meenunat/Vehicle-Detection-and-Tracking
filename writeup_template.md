@@ -64,7 +64,7 @@ Here's a [link to my video result](./project_output.mp4)
 
 ### Discussion
 
-####1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
+#### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
 Also, the algorithm was false identifying the trees unless defining the area of interest. One of the limitation is that the algorithm identifies the vehicle on the other side of the road due to wider range of area of interest. 
 
