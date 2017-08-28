@@ -31,7 +31,7 @@ I tried various various color space in order (`'RGB', 'HSV', 'LUV', 'HLS', 'YUV'
 
 
 #### HOG image for HLS Color Space
-![](./output_images/HLS_hog_image.png?raw=true "HLS")
+![](./output_images/hls_hog_image.png?raw=true "HLS")
 
 #### HOG image for YUV Color Space
 ![](./output_images/yuv_hog_image.png?raw=true "YUV")
