@@ -21,23 +21,23 @@ I started by reading in all the `vehicle` and `non-vehicle` images into cars and
 
 I tried various various color space in order (`'RGB', 'HSV', 'LUV', 'HLS', 'YUV', 'YCrCb'`) and HOG parameters of `orientations=9`, `pixels_per_cell=(8, 8)` and `cells_per_block=(2, 2)`. 
 #### HOG image for RGB Color Space 
-![](./output_images/rgb_hog_image.PNG?raw=true "RGB")
+![](./output_images/rgb_hog_image.png?raw=true "RGB")
 
 #### HOG image for HSV Color Space
-![](./output_images/hsv_hog_image.PNG?raw=true "HSV")
+![](./output_images/hsv_hog_image.png?raw=true "HSV")
 
 #### HOG image for LUV Color Space
-![](./output_images/luv_hog_image.PNG?raw=true "LUV")
+![](./output_images/luv_hog_image.png?raw=true "LUV")
 
 
 #### HOG image for HLS Color Space
-![](./output_images/HLS_hog_image.PNG?raw=true "HLS")
+![](./output_images/HLS_hog_image.png?raw=true "HLS")
 
 #### HOG image for YUV Color Space
-![](./output_images/yuv_hog_image.PNG?raw=true "YUV")
+![](./output_images/yuv_hog_image.png?raw=true "YUV")
 
 #### HOG image for yCrCb Color Space
-![](./output_images/yCrCb_hog_image.PNG?raw=true "YCrCb")
+![](./output_images/yCrCb_hog_image.png?raw=true "YCrCb")
 
 Among the various color space, YCrCb appears to provide the best result. 
 
@@ -56,7 +56,7 @@ This is addressed by defining an area of interest where the cars will be present
 The code for this step is contained in the fourth and fifth code cell of the IPython notebook.Few test images output after applying the window search and threshold to the heat map.
 
 #### Test image Output with bounding boxes and Heat Map
-![](./output_images/output_single_image.PNG?raw=true "Output")
+![](./output_images/output_single_image.png?raw=true "Output")
 
 ### Video Implementation
 
