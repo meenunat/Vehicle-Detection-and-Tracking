@@ -45,7 +45,7 @@ Among the various color space, YCrCb appears to provide the best result.
 
 The code for this step is contained in the fourth code cell of the IPython notebook. 
 
-The data was shuffled and split into validation, test data. The data was normalized using sklearn package `StandardScaler()`. A Linear SVC classifier was used combined with spatial binning, color histogram and hog classification.  With this the test accuracy is approx 97%.
+The data was shuffled and split into validation, test data. The data was normalized using sklearn package `StandardScaler()`. A Linear SVC classifier was used combined with spatial binning, color histogram and hog classification.  With this the test accuracy is approx 0.9875.
 
 ### Sliding Window Search and Heat Map
 
